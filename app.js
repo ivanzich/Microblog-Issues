@@ -2,7 +2,7 @@
 //When your user clicks submit
 //your JS should handle taking the content of the form
 //putting it in that array, and updating the DOM.
-console.log("we linked baby!");
+
 window.onload = function (){
 
 	//array that holds posts
@@ -26,6 +26,8 @@ window.onload = function (){
 		var listItem = document.createElement("LI"); 
 		listItem.innerHTML = content;                
 		ul.appendChild(listItem);
+
+		var clearButton = document.getElementById("myForm").reset();
 
 		//resets form
 		myForm.reset();
