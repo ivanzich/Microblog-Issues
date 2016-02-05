@@ -18,6 +18,9 @@ h1 {
     1px 1px 0 #000;
 
 }
+div {
+    box-shadow: 10px 10px 2px black;
+}
 
 #start {
 	text-align: center;
