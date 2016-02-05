@@ -90,7 +90,7 @@ var questionList = [
 ];
 
 // Answer key for the questions list
-var answerKey = [4,2,3,1,2,1,1,3,2,2,3,3,2,2,1,3,2,4,3,2];
+var answerKey = [4,2,3,1,2,1,1,3,2,2,3,3,2,2,1,3,2,4,3,2,2];
 
 
 /* Generates a random question */
@@ -113,6 +113,6 @@ var winner = function(answerNum) {
 		populate();
 		
 	}	else  {
-		alert("Wrong answer. Try again.")
+		alert("Wrong answer! Try again.")
 	}
 };	
