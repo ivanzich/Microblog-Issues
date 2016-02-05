@@ -77,7 +77,7 @@ var questionList = [
 [" The section of the CPU that selects, interprets and sees to the execution of program instructions?", "Memory", "Register unit", "Control unit", "ALU"],
 [" A common boundary between two systems is called ?", "Interdiction", "Interface", "Surface", "None of the above"],
 [" The examination and changing of single bits or small groups of his within a word is called ?", "Bit", "Byte", "Bit manipulation", "Bit slice"],
-[" The symbols used in an assembly language are ?", "1. Codecs","2. Mnemonics", "3. Assembler", "4. All of the above"],
+[" The symbols used in an assembly language are ?", " Codecs"," Mnemonics", " Assembler", "All of the above"],
 [" The 2's complement of a binary no. is obtained by adding.....to its 1's complement.", "0", "1", "10", "12"],
 [" From what location are the 1st computer instructions available on boot up?" , "ROM BIOS", "CPU", "boot.ini", "ONFIG.SYS"],
 [" With respect to a network interface card, the term 10/100 refers to ?","Protocol speed", "a fiber speed", "megabits per seconds", "minimum and maximum server speed"],
@@ -90,7 +90,7 @@ var questionList = [
 ];
 
 // Answer key for the questions list
-var answerKey = [4,2,3,1,2,1,3,3,2,2,3,3,2,2,1,3,2,4,3,2];
+var answerKey = [4,2,3,1,2,1,1,3,2,2,3,3,2,2,1,3,2,4,3,2];
 
 
 /* Generates a random question */
